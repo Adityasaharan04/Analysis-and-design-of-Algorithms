@@ -1,5 +1,31 @@
 # Analysis-and-design-of-algorithms
 
+1.1Selectionsort_exec.cpp
+1.2Sumof_N_naturalNumb.cpp
+1.3Combination _generator.cpp
+1.4 Quick Sort
+1.5 TrueORfalse
+2.1 Merge Sort.cpp
+2.2 Power of No..cpp
+2.3 Random Sort.cpp
+2.4 Permutation
+2.5 Tower of Hanoi
+3.1 Knapsack.cpp
+3.2 IterativeQS.cpp
+3.3 BinarySearch.cpp
+4.1 ActivitySelect.cpp
+4.2 Correct_pos.cpp
+4.3 CycleDetection.cpp
+5.1 Shortest Path.cpp
+5.2 Prims.cpp
+5.3
+5.4 Djikstra.cpp
+5.5 Kruskal.cpp
+
+
+
+
+
 Quicksort
 Time Complexity: Best Case: O(n log n) Worst Case: O(n^2) Average Case: O(n log n) Space Complexity: O(log n)
 
