@@ -1,71 +1,108 @@
-# Analysis-and-design-of-algorithms
 
-1.1Selectionsort_exec.cpp
-1.2Sumof_N_naturalNumb.cpp
-1.3Combination _generator.cpp
-1.4 Quick Sort
-1.5 TrueORfalse
-2.1 Merge Sort.cpp
-2.2 Power of No..cpp
-2.3 Random Sort.cpp
-2.4 Permutation
-2.5 Tower of Hanoi
-3.1 Knapsack.cpp
-3.2 IterativeQS.cpp
-3.3 BinarySearch.cpp
-4.1 ActivitySelect.cpp
-4.2 Correct_pos.cpp
-4.3 CycleDetection.cpp
-5.1 Shortest Path.cpp
-5.2 Prims.cpp
-5.3
-5.4 Djikstra.cpp
-5.5 Kruskal.cpp
+# Analysis and Design of Algorithms
 
+This repository contains various algorithms implemented in C++ for analysis and design purposes.
 
+## Algorithms Implemented
 
+### Sorting Algorithms
 
+1. **Quicksort**
+   - Time Complexity:
+     - Best Case: O(n log n)
+     - Worst Case: O(n^2)
+     - Average Case: O(n log n)
+   - Space Complexity: O(log n)
+   - Description: Implementation of the Quicksort algorithm.
 
-Quicksort
-Time Complexity: Best Case: O(n log n) Worst Case: O(n^2) Average Case: O(n log n) Space Complexity: O(log n)
+2. **Iterative Quicksort**
+   - Time Complexity: Same as Quicksort
+   - Space Complexity: Same as Quicksort
+   - Description: Iterative implementation of the Quicksort algorithm.
 
-Iterative Quicksort
-Time Complexity: Same as Quicksort Space Complexity: Same as Quicksort
+3. **Merge Sort**
+   - Time Complexity:
+     - Best Case: O(n log n)
+     - Worst Case: O(n log n)
+     - Average Case: O(n log n)
+   - Space Complexity: O(n)
+   - Description: Implementation of the Merge Sort algorithm.
 
-Finding Pivot Element
-Time Complexity: Best Case: O(n) Worst Case: O(n) Space Complexity: O(1)
+4. **Selection Sort**
+   - Time Complexity:
+     - Best Case: O(n^2)
+     - Worst Case: O(n^2)
+   - Space Complexity: O(1)
+   - Description: Implementation of the Selection Sort algorithm.
 
-Merge Sort
-Time Complexity: Best Case: O(n log n) Worst Case: O(n log n) Average Case: O(n log n) Space Complexity: O(n)
+### Searching Algorithms
 
-Counting N Numbers (Iteratively and Recursively)
-Time Complexity: O(n) for both iterative and recursive implementations Space Complexity: Iterative: O(1) Recursive: O(n) due to recursive calls
+1. **Binary Search**
+   - Time Complexity: O(log n)
+   - Space Complexity: O(1)
+   - Description: Implementation of the Binary Search algorithm.
 
-Activity Selection Problem
-Time Complexity: O(n log n) Space Complexity: O(1) Knapsack Problem
+### Graph Algorithms
 
-Time Complexity: O(nW), where n is the number of items and W is the capacity of the knapsack Space Complexity: O(nW)
+1. **Dijkstra's Algorithm**
+   - Time Complexity:
+     - Using adjacency matrix: O(V^2)
+     - Using priority queue with adjacency list: O((V + E) log V)
+   - Space Complexity:
+     - Using adjacency matrix: O(V^2)
+     - Using adjacency list: O(V + E)
+   - Description: Implementation of Dijkstra's Algorithm for finding shortest paths in a graph.
 
-Dijkstra's Algorithm
-Time Complexity: O(V^2) using adjacency matrix O((V + E) log V) using priority queue with adjacency list Space Complexity: O(V^2) using adjacency matrix O(V + E) using adjacency list
+2. **Kruskal's Algorithm**
+   - Time Complexity: O(E log E)
+   - Space Complexity: O(V + E)
+   - Description: Implementation of Kruskal's Algorithm for finding minimum spanning trees in a graph.
 
-Kruskal's Algorithm
-Time Complexity: O(E log E), where E is the number of edges Space Complexity: O(V + E), where V is the number of vertices and E is the number of edges
+3. **Prim's Algorithm**
+   - Time Complexity: O(V^2)
+   - Space Complexity: O(V + E)
+   - Description: Implementation of Prim's Algorithm for finding minimum spanning trees in a graph.
 
-Prim's Algorithm
-Time Complexity: O(V^2) using adjacency matrix Space Complexity: O(V + E) using adjacency list
+### Dynamic Programming
 
-Multi-Staged Graph
-Time Complexity: Depends on the specific algorithm used for traversal or solving problems related to multi-staged graphs. Space Complexity: Depends on the specific algorithm used.
+1. **Knapsack Problem**
+   - Time Complexity: O(nW)
+   - Space Complexity: O(nW)
+   - Description: Implementation of the Knapsack Problem using dynamic programming.
 
-Selection Sort
-Time Complexity: Best Case: O(n^2) Worst Case: O(n^2) Space Complexity: O(1)
+2. **Activity Selection Problem**
+   - Time Complexity: O(n log n)
+   - Space Complexity: O(1)
+   - Description: Implementation of the Activity Selection Problem using greedy algorithms.
 
-Magic Square
-Time Complexity: Depends on the specific algorithm used for generating or solving magic squares. Space Complexity: Depends on the specific algorithm used.
+## Miscellaneous Algorithms
 
-Recursive Matrix Multiplication
-Time Complexity: Depends on the specific algorithm used for matrix multiplication. Space Complexity: Depends on the specific algorithm used.
+1. **Tower of Hanoi**
+   - Description: Implementation of the Tower of Hanoi problem.
 
-Min-Max of an Array using Divide and Conquer Approach
-Time Complexity: O(n) Space Complexity: O(log n)
+2. **Permutation**
+   - Description: Implementation of permutation generation.
+
+3. **Magic Square**
+   - Description: Algorithms related to generating and solving magic squares.
+
+4. **Multi-Staged Graph**
+   - Description: Algorithms related to multi-staged graphs.
+
+5. **Recursive Matrix Multiplication**
+   - Description: Algorithms related to recursive matrix multiplication.
+
+6. **Min-Max of an Array using Divide and Conquer Approach**
+   - Description: Algorithms related to finding the min-max of an array using divide and conquer approach.
+
+## Usage
+
+Each algorithm is implemented in a separate C++ file. You can compile and run these files individually to observe the algorithms in action.
+
+## Contributing
+
+Feel free to contribute by adding new algorithms, improving existing ones, or providing better documentation. Fork this repository, make your changes, and submit a pull request.
+
+---
+
+Feel free to adjust the descriptions and add more details as needed. This README will give users a clear overview of the algorithms implemented in your repository and how they can use and contribute to it.
